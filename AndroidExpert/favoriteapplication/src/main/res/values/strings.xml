@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name" translatable="false">Favorite Apps</string>
+
+    <!-- nav string -->
+    <string name="title_favorite">Favorite</string>
+
+    <!--  tab string  -->
+
+    <!-- item string -->
+    <string name="image" translatable="false">Image</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="genre" translatable="false">Genre</string>
+    <string name="date" translatable="false">Date</string>
+    <string name="rating" translatable="false">Rating</string>
+
+</resources>

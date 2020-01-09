@@ -1,2 +1,2 @@
-include ':app'
-rootProject.name='AndroidExpert4'
+include ':app', ':favoriteapplication'
+rootProject.name='AndroidExpert5'

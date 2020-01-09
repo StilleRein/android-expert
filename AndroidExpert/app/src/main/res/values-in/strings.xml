@@ -17,5 +17,17 @@
     <string name="synopsis">Sinopsis</string>
     <string name="time">menit</string>
 
+    <!-- settings -->
     <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_reminder">Pengingat Rilisan Baru</string>
+
+    <!-- widget -->
+    <string name="appwidget_text">Film Kesukaan</string>
+    <string name="empty_text">Kosong</string>
+
+    <!--reminder -->
+    <string name="content_daily_title">Cek film hari ini!</string>
+    <string name="content_text">Tekan untuk buka aplikasi</string>
+    <string name="content_release_title">Film Baru Rilis</string>
 </resources>

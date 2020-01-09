@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">AndroidExpert4</string>
+    <string name="app_name" translatable="false">AndroidExpert5</string>
 
     <!-- nav string -->
     <string name="title_home">Home</string>
@@ -26,5 +26,18 @@
     <string name="synopsis">Synopsis</string>
     <string name="time">minutes</string>
 
+    <!-- settings -->
     <string name="change_language_settings">Change Language Settings</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="release_reminder">Release Reminder</string>
+
+    <!-- widget -->
+    <string name="appwidget_text">My Favorite Movies</string>
+    <string name="empty_text">No Data</string>
+
+    <!--reminder -->
+    <string name="content_daily_title">Check out today\'s movie!</string>
+    <string name="content_text">Tap to open apps</string>
+    <string name="content_release_title">New Release Movie</string>
+
 </resources>
