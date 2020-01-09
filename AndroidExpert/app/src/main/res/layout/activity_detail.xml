@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="380dp">
+
+            <ImageView
+                android:id="@+id/img_banner"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@color/colorAccent"
+                android:contentDescription="@string/movie_banner"
+                android:scaleType="fitXY" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="#CC3C3C3C" />
+
+            <TextView
+                android:id="@+id/txt_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="12dp"
+                android:text="@string/movie_title"
+                android:textColor="@color/colorText"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <GridView
+                android:id="@+id/genre_gridlist"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@+id/txt_title"
+                android:numColumns="3"
+                android:paddingHorizontal="20dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp" />
+
+            <ImageView
+                android:id="@+id/img_photo"
+                android:layout_width="140dp"
+                android:layout_height="200dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="18dp"
+                android:background="@color/colorAccent"
+                android:contentDescription="@string/movie_image"
+                android:scaleType="fitXY" />
+
+            <LinearLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_banner"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_toEndOf="@id/img_photo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:drawableStart="@drawable/ic_date_range_24dp"
+                    android:drawablePadding="6dp"
+                    android:text="@string/movie_year"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_access_time_24dp"
+                    android:drawablePadding="6dp"
+                    android:text="@string/movie_duration"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:drawableStart="@drawable/ic_star_50dp"
+                    android:drawablePadding="6dp"
+                    android:gravity="bottom"
+                    android:text="@string/movie_rating"
+                    android:textColor="@color/colorText"
+                    android:textSize="22sp" />
+            </LinearLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#00FFFFFF"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </android.support.v7.widget.Toolbar>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/movie_synopsis"
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/movie_description"
+            android:textColor="@color/colorText"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>
