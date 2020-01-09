@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- nav string -->
+    <string name="title_movie">Film</string>
+    <string name="title_tv_show">Acara TV</string>
+    <string name="title_settings">Pengaturan</string>
+
+    <string name="synopsis">Sinopsis</string>
+    <string name="time">menit</string>
+
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+
+</resources>
