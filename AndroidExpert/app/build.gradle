@@ -9,6 +9,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "API_KEY", '"8e4982d73c26d0bd38f8dce4f5afd2c8"')
     }
     buildTypes {
         release {
@@ -42,4 +43,9 @@ dependencies {
     implementation 'com.android.support:cardview-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
     implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    //noinspection LifecycleAnnotationProcessorWithJava8
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">AndroidExpert2</string>
+    <string name="app_name" translatable="false">AndroidExpert3</string>
 
     <!-- nav string -->
     <string name="title_movie">Movie</string>
@@ -11,14 +11,14 @@
     <string name="image" translatable="false">Image</string>
     <string name="title" translatable="false">Title</string>
     <string name="genre" translatable="false">Genre</string>
-    <string name="year" translatable="false">Year</string>
+    <string name="date" translatable="false">Date</string>
     <string name="rating" translatable="false">Rating</string>
     <string name="banner" translatable="false">Banner</string>
     <string name="duration" translatable="false">Duration</string>
     <string name="description" translatable="false">Description</string>
     <string name="synopsis">Synopsis</string>
     <string name="time">mins</string>
-    
+
     <string name="change_language_settings">Change Language Settings</string>
 
 </resources>
