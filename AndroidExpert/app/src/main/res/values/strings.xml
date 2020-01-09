@@ -1,11 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">AndroidExpert3</string>
+    <string name="app_name" translatable="false">AndroidExpert4</string>
 
     <!-- nav string -->
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_settings">Settings</string>
+
+    <!--  tab string  -->
     <string name="title_movie">Movie</string>
     <string name="title_tv_show">TV Show</string>
-    <string name="title_settings">Settings</string>
+
+    <!--  add/remove favorite string  -->
+    <string name="add_favorite">Add to favorite</string>
+    <string name="remove_favorite">Remove from favorite</string>
 
     <!-- item string -->
     <string name="image" translatable="false">Image</string>
@@ -17,8 +24,7 @@
     <string name="duration" translatable="false">Duration</string>
     <string name="description" translatable="false">Description</string>
     <string name="synopsis">Synopsis</string>
-    <string name="time">mins</string>
+    <string name="time">minutes</string>
 
     <string name="change_language_settings">Change Language Settings</string>
-
 </resources>

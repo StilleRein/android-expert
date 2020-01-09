@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- nav string -->
-    <string name="title_movie">Film</string>
-    <string name="title_tv_show">Acara TV</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Favorit</string>
     <string name="title_settings">Pengaturan</string>
 
+    <!--  tab string  -->
+    <string name="title_movie">Film</string>
+    <string name="title_tv_show">Acara TV</string>
+
+    <!--  add/remove favorite string  -->
+    <string name="add_favorite">Tambah favorit</string>
+    <string name="remove_favorite">Hapus favorit</string>
+
+    <!-- item string -->
     <string name="synopsis">Sinopsis</string>
     <string name="time">menit</string>
 
     <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
-
 </resources>
